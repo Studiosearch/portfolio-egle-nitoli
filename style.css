@@ -468,6 +468,9 @@ ul { list-style: none; }
   overflow: hidden;
   position: relative;
   background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .site-iframe {
@@ -475,10 +478,9 @@ ul { list-style: none; }
   height: 960px;
   border: none;
   transform: scale(0.25);
-  transform-origin: top left;
+  transform-origin: center center;
   pointer-events: none;
   position: absolute;
-  top: 0; left: 0;
 }
 
 /* Transparent overlay to catch clicks and redirect to href */
@@ -527,6 +529,9 @@ ul { list-style: none; }
 .contact-title {
   font-size: 3rem;
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .contact-lead {
@@ -598,12 +603,12 @@ ul { list-style: none; }
   cursor: pointer;
   width: 2.5rem;
   height: 2.5rem;
-  filter: drop-shadow(0 3px 8px rgba(222, 82, 50, 0.4));
+  filter: drop-shadow(0 2px 6px rgba(75, 94, 201, 0.3));
 }
 
 .contact-icon-link:hover .icon-minimal {
-  transform: scale(1.2) rotate(5deg);
-  filter: drop-shadow(0 6px 14px rgba(222, 82, 50, 0.6));
+  transform: scale(1.15) rotate(-5deg);
+  filter: drop-shadow(0 4px 12px rgba(75, 94, 201, 0.5));
 }
 
 .location {
