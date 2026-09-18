@@ -583,32 +583,31 @@ ul { list-style: none; }
 .contact-links-minimal {
   display: flex;
   justify-content: center;
-  gap: 2.5rem;
-  margin-bottom: 2.5rem;
-  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .contact-icon-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: var(--transition);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
   text-decoration: none;
 }
 
-.icon-minimal {
-  font-size: 2.5rem;
-  transition: var(--transition);
-  display: block;
-  cursor: pointer;
-  width: 2.5rem;
-  height: 2.5rem;
-  filter: drop-shadow(0 2px 6px rgba(75, 94, 201, 0.3));
+.contact-icon-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
 }
 
-.contact-icon-link:hover .icon-minimal {
-  transform: scale(1.15) rotate(-5deg);
-  filter: drop-shadow(0 4px 12px rgba(75, 94, 201, 0.5));
+.icon-minimal {
+  width: 1.8rem;
+  height: 1.8rem;
+  flex-shrink: 0;
 }
 
 .location {
