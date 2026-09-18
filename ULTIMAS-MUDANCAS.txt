@@ -1,0 +1,104 @@
+✨ ÚLTIMAS MUDANÇAS REALIZADAS
+
+═══════════════════════════════════════════════════════════════
+
+1️⃣ "50 BRAND" EM ROSA 🌸
+─────────────────────────────────────────────────────────────
+✅ Cor alterada: Branco → Rosa (#ec759e)
+✅ Localização: Seção "Digital Marketing & Social Media"
+✅ Texto: "Gestione strategie digitali, creazione di contenuti, 
+        campagne social e oltre 50 brand creati da zero..."
+
+CSS Alterado:
+.script-em {
+  color: #ec759e;    ← Mudou de #fff (branco)
+  font-weight: 700;
+  text-shadow: none; ← Removido o shadow laranja
+}
+
+═══════════════════════════════════════════════════════════════
+
+2️⃣ "MAGIA" EM MINÚSCULA 📝
+─────────────────────────────────────────────────────────────
+✅ Antes: "FACCIAMO MAGIA INSIEME!"
+✅ Depois: "FACCIAMO magia INSIEME!"
+
+CSS Adicionado:
+.contact-title .title-script {
+  text-transform: none; ← Anula o uppercase para "magia"
+}
+
+═══════════════════════════════════════════════════════════════
+
+3️⃣ ÍCONES MINIMALISTAS COM SOMBRA LARANJA ✉️💼📷💬
+─────────────────────────────────────────────────────────────
+✅ Removido: Emojis (✉️ 💼 📷 💬)
+✅ Adicionado: Ícones SVG vetorizados
+✅ Cores: Branco com sombra laranja (#de5232)
+✅ Efeito Hover: Cresce e gira levemente
+
+Ícones:
+• Email: Envelope simples
+• LinkedIn: Logo LinkedIn (branco)
+• Instagram: Câmera simples
+• WhatsApp: Ícone WhatsApp
+
+CSS:
+.icon-minimal {
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: drop-shadow(0 3px 8px rgba(222, 82, 50, 0.4));
+}
+
+.contact-icon-link:hover .icon-minimal {
+  transform: scale(1.2) rotate(5deg);
+  filter: drop-shadow(0 6px 14px rgba(222, 82, 50, 0.6));
+}
+
+═══════════════════════════════════════════════════════════════
+
+4️⃣ BOXES DE PROJETOS CENTRALIZADOS 📦
+─────────────────────────────────────────────────────────────
+✅ Texto centralizado dentro dos boxes
+✅ Títulos e descrições agora estão no centro
+
+CSS Alterado:
+.project-info {
+  text-align: center; ← Novo
+}
+
+═══════════════════════════════════════════════════════════════
+
+RESUMO DE ARQUIVOS MODIFICADOS:
+
+✏️  index.html       → Ícones SVG substituindo emojis
+✏️  style.css        → 4 mudanças principais:
+                        • .script-em (cor rosa)
+                        • .contact-title .title-script (minúscula)
+                        • .icon-minimal (SVG styles)
+                        • .project-info (texto centralizado)
+✏️  main.js          → Sem mudanças (traduções já estavam corretas)
+
+═══════════════════════════════════════════════════════════════
+
+✨ PRÓXIMOS PASSOS:
+
+1. Baixe os 3 arquivos atualizados:
+   • index.html
+   • main.js
+   • style.css
+
+2. Copie para sua pasta:
+   ~/.gemini/antigravity/scratch/portfolio-italiano/
+
+3. Substitua quando pedir
+
+4. No Terminal:
+   cd ~/.gemini/antigravity/scratch/portfolio-italiano
+   npm run dev
+
+5. Aperte Cmd + Shift + R no navegador para limpar cache
+
+═══════════════════════════════════════════════════════════════
+
+Seu portfolio está praticamente pronto! 🚀
